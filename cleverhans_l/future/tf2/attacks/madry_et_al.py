@@ -4,7 +4,6 @@ The MadryEtAl attack
 
 from cleverhans_l.future.tf2.attacks.projected_gradient_descent import projected_gradient_descent
 
-
 def madry_et_al(model_fn, x, eps, eps_iter, nb_iter, norm,
                 clip_min=None, clip_max=None, y=None, targeted=False,
                 rand_minmax=0.3, sanity_checks=True):
