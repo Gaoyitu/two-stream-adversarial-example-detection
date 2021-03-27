@@ -6,7 +6,6 @@ import tensorflow as tf
 from cleverhans_l.future.tf2.attacks.fast_gradient_method import fast_gradient_method
 from cleverhans_l.future.tf2.utils_tf import clip_eta
 
-
 def projected_gradient_descent(model_fn, x, eps, eps_iter, nb_iter, norm,
                                clip_min=None, clip_max=None, y=None, targeted=False,
                                rand_init=None, rand_minmax=0.3, sanity_checks=True):
