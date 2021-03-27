@@ -14,3 +14,5 @@ def basic_iterative_method(model_fn, x, eps, eps_iter, nb_iter, norm,
   return projected_gradient_descent(model_fn, x, eps, eps_iter, nb_iter, norm,
                                     clip_min=clip_min, clip_max=clip_max, y=y, targeted=targeted,
                                     rand_init=False, rand_minmax=rand_minmax, sanity_checks=sanity_checks)
+
+
