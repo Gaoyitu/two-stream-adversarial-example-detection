@@ -7,6 +7,7 @@ import two_stream_detection_network
 from utils import compute_roc
 import models
 
+
 def get_testing_data(x_test,x_adv_test,y_test,classifier):
     preds = classifier.predict(x_test)
     y1 = np.reshape(y_test,(y_test.shape[0],))
