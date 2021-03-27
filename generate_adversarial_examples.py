@@ -244,7 +244,7 @@ if __name__ == "__main__":
                            metrics=['accuracy'])
 
     batch_size = 1000
-    eps = 0.05
+    eps = 0.03
 
 
     adv = generate_adv_examples_MIM(model=model_mobilenet, x=x_train, y=y_train, batch_size=batch_size, eps=eps,
