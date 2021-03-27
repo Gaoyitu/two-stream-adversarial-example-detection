@@ -8,6 +8,7 @@ import single_stream_detection_network
 from models import get_cifar100_resnet101v2
 import numpy as np
 
+
 def get_training_data(x,x_adv,y,model):
     preds = model.predict(x)
     y1 = np.reshape(y,(y.shape[0],))
