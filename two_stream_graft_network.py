@@ -4,6 +4,7 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
+
 from functools import partial
 import tensorflow as tf
 import numpy as np
