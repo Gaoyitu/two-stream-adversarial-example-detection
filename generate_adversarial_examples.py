@@ -1,5 +1,6 @@
 from cleverhans_l.future.tf2.attacks import projected_gradient_descent,\
     momentum_iterative_method,fast_gradient_method,spsa
+
 import numpy as np
 import models
 import tensorflow as tf
