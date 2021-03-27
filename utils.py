@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve,auc
 import numpy as np
 
+
 def show_gray_image(image):
     plt.imshow(image,cmap="gray")
     plt.axis("off")
