@@ -8,7 +8,6 @@ from cleverhans_l.compat import reduce_mean
 from cleverhans_l.future.tf2.attacks.fast_gradient_method import optimize_linear, compute_gradient
 from cleverhans_l.future.tf2.utils_tf import clip_eta
 
-
 def momentum_iterative_method(model_fn, x, eps=0.3, eps_iter=0.06, nb_iter=10, norm=np.inf,
                                clip_min=None, clip_max=None, y=None, targeted=False,
                                decay_factor=1.0, sanity_checks=True):
