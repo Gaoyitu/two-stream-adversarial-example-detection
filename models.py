@@ -1,6 +1,5 @@
 import tensorflow as tf
 
-
 def get_mnist_local():
 
     inputs = tf.keras.Input(shape=(28, 28, 1))
