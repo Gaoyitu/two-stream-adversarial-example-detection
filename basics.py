@@ -2,7 +2,6 @@
 import tensorflow as tf
 import utils
 
-
 class Conv2D(tf.keras.layers.Layer):
     def __init__(self, filters, kernel_size=3, strides=1, padding='same'):
         super(Conv2D, self).__init__()
