@@ -4,7 +4,6 @@ import tensorflow as tf
 
 tf_dtype = tf.as_dtype('float32')
 
-
 def spsa(model_fn, x, y, eps, nb_iter, clip_min=None, clip_max=None, targeted=False,
          early_stop_loss_threshold=None, learning_rate=0.01, delta=0.01, spsa_samples=128,
          spsa_iters=1, is_debug=False):
