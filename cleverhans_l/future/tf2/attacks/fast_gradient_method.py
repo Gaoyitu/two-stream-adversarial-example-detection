@@ -126,3 +126,4 @@ def optimize_linear(grad, eps, norm=np.inf):
   # Scale perturbation to be the solution for the norm=eps rather than norm=1 problem
   scaled_perturbation = tf.multiply(eps, optimal_perturbation)
   return scaled_perturbation
+
