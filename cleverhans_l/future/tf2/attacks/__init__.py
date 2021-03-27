@@ -4,3 +4,4 @@ from cleverhans_l.future.tf2.attacks.spsa import spsa
 from cleverhans_l.future.tf2.attacks.momentum_iterative_method import momentum_iterative_method
 from cleverhans_l.future.tf2.attacks.madry_et_al import madry_et_al
 from cleverhans_l.future.tf2.attacks.basic_iterative_method import basic_iterative_method
+
